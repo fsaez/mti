@@ -1,0 +1,14 @@
+@prefix :      <http://data.getede.cl/> .
+@prefix schema: <http://schema.org/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+:camila  a                      schema:Person ;
+        schema:EducationalOccupationalCredential
+                "Ingeniera Civil" ;
+        schema:birthDate        "1989-03-27"^^xsd:date ;
+        schema:birthPlace       "Santiago" ;
+        schema:familyName       "Balbontin Tanhnuz" ;
+        schema:givenName        "Camila" ;
+        schema:honorificSuffix  "PhD" ;
+        schema:knowsAbout       "Ingeniería en Transpote" ;
+        schema:nationality      "Chilena" .
