@@ -1,14 +1,41 @@
-@prefix :      <http://data.getede.cl/> .
+@prefix dt:      <http://data.getede.cl/> .
 @prefix schema: <http://schema.org/> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-:camila  a                      schema:Person ;
-        schema:EducationalOccupationalCredential
-                "Ingeniera Civil" ;
+dt:Camila  
+        a   schema:Person ;
+        schema:EducationalOccupationalCredential "Ingeniera Civil" ;
         schema:birthDate        "1989-03-27"^^xsd:date ;
         schema:birthPlace       "Santiago" ;
         schema:familyName       "Balbontin Tanhnuz" ;
         schema:givenName        "Camila" ;
         schema:honorificSuffix  "PhD" ;
         schema:knowsAbout       "Ingeniería en Transpote" ;
-        schema:nationality      "Chilena" .
+        schema:gender           "Femenino" ;
+        schema:nationality      "Chilena" ;
+        schema:alumniOf         dt:CamilaAlumni .
+
+dt:CamilaAlumni
+        a schema:CollegeOrUniversity ;
+        schema:name            "Pontificia Universidad Católica de Chile" ;
+        schema:sameAs          "https://www.uc.cl"^^xsd:anyURI .
+
+dt:Constanza  
+        a   schema:Person ;
+        schema:EducationalOccupationalCredential "Ingeniera Civil" ;
+        schema:birthDate        "1985-09-12"^^xsd:date ;
+        schema:birthPlace       "Santiago" ;
+        schema:familyName       "López Lamerain" ;
+        schema:givenName        "Constanza" ;
+        schema:honorificSuffix  "PhD" ;
+        schema:knowsAbout       "Historia de América y Chile" ;
+        schema:gender           "Femenino" ;
+        schema:nationality      "Chilena" ;
+        schema:alumniOf         dt:ConstanzaAlumni .
+
+dt:CamilaAlumni
+        a schema:CollegeOrUniversity ;
+        schema:name            "Universidad Adolfo Ibáñez" ;
+        schema:sameAs          "https://www.uai.cl"^^xsd:anyURI .
+
+
