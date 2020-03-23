@@ -1,6 +1,7 @@
-@prefix dt:      <http://data.getede.cl/> .
+@prefix dt:     <http://data.getede.cl/> .
 @prefix schema: <http://schema.org/> .
-@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix cv:     <http://rdfs.org/resume-rdf/> .
 
 dt:Camila  
         a   schema:Person ;
@@ -13,12 +14,36 @@ dt:Camila
         schema:knowsAbout       "Ingeniería en Transpote" ;
         schema:gender           "Femenino" ;
         schema:nationality      "Chilena" ;
-        schema:alumniOf         dt:CamilaAlumni .
+        schema:alumniOf         dt:CamilaUniv ;
+        schema:alumniOf         dt:CamilaMag ;
+        schema:alumniOf         dt:CamilaDoc .
 
-dt:CamilaAlumni
+dt:CamilaUniv
         a schema:CollegeOrUniversity ;
-        schema:name            "Pontificia Universidad Católica de Chile" ;
-        schema:sameAs          "https://www.uc.cl"^^xsd:anyURI .
+        schema:name             "Pontificia Universidad Católica de Chile" ;
+        schema:country          "Chile" ;
+        schema:sameAs           "https://www.uc.cl"^^xsd:anyURI ;
+        schema:degree           "Universitario" ;
+        schema:startDate        "2008"^^xsd:date ;
+        schema:endDate          "2013"^^xsd:date .
+
+dt:CamilaMag
+        a schema:CollegeOrUniversity ;
+        schema:name             "Pontificia Universidad Católica de Chile" ;
+        schema:country          "Chile" ;
+        schema:sameAs           "https://www.uc.cl"^^xsd:anyURI ;
+        schema:degree           "Magíster" ;
+        schema:startDate        "2011"^^xsd:date ;
+        schema:endDate          "2013"^^xsd:date .
+
+dt:CamilaDoc
+        a schema:CollegeOrUniversity ;
+        schema:name             "University of Sydney" ;
+        schema:country          "Australia" ;
+        schema:sameAs           "https://www.sydney.edu.au"^^xsd:anyURI ;
+        schema:degree           "Doctorado" ;
+        schema:startDate        "2016"^^xsd:date ;
+        schema:endDate          "2018"^^xsd:date .        
 
 dt:Constanza  
         a   schema:Person ;
@@ -31,11 +56,35 @@ dt:Constanza
         schema:knowsAbout       "Historia de América y Chile" ;
         schema:gender           "Femenino" ;
         schema:nationality      "Chilena" ;
-        schema:alumniOf         dt:ConstanzaAlumni .
+        schema:alumniOf         dt:ConstanzaUniv ;
+        schema:alumniOf         dt:ConstanzaMag ;
+        schema:alumniOf         dt:ConstanzaDoc .
 
-dt:CamilaAlumni
+dt:ConstanzaUniv
         a schema:CollegeOrUniversity ;
-        schema:name            "Universidad Adolfo Ibáñez" ;
-        schema:sameAs          "https://www.uai.cl"^^xsd:anyURI .
+        schema:name             "Universidad Adolfo Ibáñez" ;
+        schema:country          "Chile" ;
+        schema:sameAs           "https://www.uai.cl"^^xsd:anyURI ;
+        schema:degree           "Universitario" ;
+        schema:startDate        "2010"^^xsd:date ;
+        schema:endDate          "2014"^^xsd:date .
+
+dt:ConstanzaMag
+        a schema:CollegeOrUniversity ;
+        schema:name             "Universidad Adolfo Ibáñez" ;
+        schema:country          "Chile" ;
+        schema:sameAs           "https://www.uai.cl"^^xsd:anyURI ;
+        schema:degree           "Magíster" ;
+        schema:startDate        "2012"^^xsd:date ;
+        schema:endDate          "2014"^^xsd:date .
+
+dt:ConstanzaDoc
+        a schema:CollegeOrUniversity ;
+        schema:name             "Universidad del País Vasco" ;
+        schema:country          "España" ;
+        schema:sameAs           "https://www.ehu.eus/"^^xsd:anyURI ;
+        schema:degree           "Doctorado" ;
+        schema:startDate        "2016"^^xsd:date ;
+        schema:endDate          "2020"^^xsd:date .    
 
 

@@ -1,3 +1,5 @@
+#Validar https://shacl.org/playground/
+
 @prefix :      <http://data.getede.cl/> .
 @prefix schema: <http://schema.org/> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
@@ -57,6 +59,23 @@ schema:AlumniShape
         sh:datatype xsd:string ;
     ] ;
     sh:property [
+        sh:path schema:country ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
         sh:path schema:sameAs ;
         sh:datatype xsd:anyURI ;
+    ] ;
+    sh:property [
+        sh:path schema:degree ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path schema:startDate ;
+        sh:datatype xsd:date ;
+    ] ;
+    sh:property [
+        sh:path schema:endDate ;
+        sh:datatype xsd:date ;
     ] .
+
