@@ -49,6 +49,10 @@ schema:PersonShape
     sh:property [
         sh:path schema:alumniOf ;
         sh:node schema:AlumniShape ;
+    ] ;
+    sh:property [
+        sh:path schema:CreativeWork ;
+        sh:node schema:CreativeWorkShape ;
     ] .
 
 schema:AlumniShape
@@ -77,5 +81,29 @@ schema:AlumniShape
     sh:property [
         sh:path schema:endDate ;
         sh:datatype xsd:date ;
+    ] .
+
+schema:CreativeWorkShape
+    a sh:NodeShape ;
+    sh:targetClass schema:CreativeWork ;
+    sh:property [
+        sh:path schema:name ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path schema:datePublished ;
+        sh:datatype xsd:date ;
+    ] ;
+    sh:property [
+        sh:path schema:contributor ;
+        sh:node schema:PersonShape ;
+    ] ;
+    sh:property [
+        sh:path schema:publisher ;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path schema:url ;
+        sh:datatype schema:URL ;
     ] .
 
