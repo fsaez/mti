@@ -19,7 +19,7 @@ dt:Camila
                         schema:country          "Chile" ;
                         schema:sameAs           "https://www.uc.cl"^^xsd:anyURI ;
                         schema:degree           "Universitario" ;
-                        schema:startDate        "2008"^^xsd:date ;
+                        schema:startDate        "2007"^^xsd:date ;
                         schema:endDate          "2013"^^xsd:date ],
 
                         [ a schema:CollegeOrUniversity ;
@@ -35,14 +35,14 @@ dt:Camila
                         schema:country          "Australia" ;
                         schema:sameAs           "https://www.sydney.edu.au"^^xsd:anyURI ;
                         schema:degree           "Doctorado" ;
-                        schema:startDate        "2016"^^xsd:date ;
+                        schema:startDate        "2014"^^xsd:date ;
                         schema:endDate          "2018"^^xsd:date ] ;
 
         schema:author   [ a schema:CreativeWork ;
                         schema:datePublished    "2019"^^xsd:date ;
                         schema:name             "Mobility as a service in community transport, in Australia: can it provide a sustainable future? Transportation Research Part A" ;
                         schema:contributor      dt:Corinne, dt:Ho, dt:David ;
-                        schema:publisher        "?????" ;
+                        schema:publisher        "" ;
                         schema:url              "https://www.sciencedirect.com/science/article/pii/S0965856418311340?via%3Dihub"^^schema:URL ],
 
                         [ a schema:CreativeWork ;
@@ -92,7 +92,7 @@ dt:Constanza
                                 schema:country          "Chile" ;
                                 schema:sameAs           "https://www.uai.cl"^^xsd:anyURI ;
                                 schema:degree           "Universitario" ;
-                                schema:startDate        "2010"^^xsd:date ;
+                                schema:startDate        "2006"^^xsd:date ;
                                 schema:endDate          "2014"^^xsd:date ],
 
                                 [ a schema:CollegeOrUniversity ;
@@ -110,7 +110,7 @@ dt:Constanza
                                 schema:country          "España" ;
                                 schema:sameAs           "https://www.ehu.eus/"^^xsd:anyURI ;
                                 schema:degree           "Doctorado" ;
-                                schema:startDate        "2016"^^xsd:date ;
+                                schema:startDate        "2015"^^xsd:date ;
                                 schema:endDate          "2020"^^xsd:date ];
 
         schema:author           [ a schema:CreativeWork ;
