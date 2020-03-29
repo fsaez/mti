@@ -1,0 +1,207 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "schema:CreativeWork",
+    "datePublished" : "2011",
+    "name" : "El Concilio de Trento y Sudamérica: Aplicaciones y adaptaciones en el III Concilio Limense",
+    "publisher" : "Anuario de Historia de la Iglesia en Chile",
+    "url" : "https://www.academia.edu/7509485/El_Concilio_de_Trento_y_Sudam%C3%A9rica_Aplicaciones_y_adaptaciones_en_el_III_Concilio_Limense"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "schema:CollegeOrUniversity",
+    "country" : "Chile",
+    "degree" : "Magíster",
+    "endDate" : "2014",
+    "name" : "Universidad Adolfo Ibáñez",
+    "sameAs" : "https://www.uai.cl",
+    "startDate" : "2012"
+  }, {
+    "@id" : "_:b10",
+    "@type" : "schema:CreativeWork",
+    "contributor" : [ "dt:David", "dt:Ho", "dt:Corinne" ],
+    "datePublished" : "2019",
+    "name" : "Cross-cultural contrasts of preferences for bus rapid transit and light rail transit",
+    "publisher" : "Journal of Transport Economics and Policy",
+    "url" : ""
+  }, {
+    "@id" : "_:b11",
+    "@type" : "schema:CollegeOrUniversity",
+    "country" : "Australia",
+    "degree" : "Doctorado",
+    "endDate" : "2018",
+    "name" : "University of Sydney",
+    "sameAs" : "https://www.sydney.edu.au",
+    "startDate" : "2016"
+  }, {
+    "@id" : "_:b12",
+    "@type" : "schema:CollegeOrUniversity",
+    "country" : "Chile",
+    "degree" : "Universitario",
+    "endDate" : "2013",
+    "name" : "Pontificia Universidad Católica de Chile",
+    "sameAs" : "https://www.uc.cl",
+    "startDate" : "2008"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "schema:CreativeWork",
+    "datePublished" : "2011",
+    "name" : "El III Concilio de Lima y la conformación de una normativa evangelizadora para la Provincia Eclesiástica del Perú",
+    "publisher" : "Intus-Legere Historia",
+    "url" : "https://www.academia.edu/2034108/El_III_Concilio_de_Lima_y_la_conformaci%C3%B3n_de_una_normativa_evangelizadora_para_la_Provincia_Eclesi%C3%A1stica_del_Per%C3%BA"
+  }, {
+    "@id" : "_:b3",
+    "@type" : "schema:CreativeWork",
+    "datePublished" : "2018",
+    "name" : "Translating canon law into local reality: from Trent to Santiago de Chile",
+    "publisher" : "Press Universitaires de Rennes",
+    "url" : "https://www.academia.edu/35870910/L%C3%B3pez_Lamerain_Translating_canon_law.pdf"
+  }, {
+    "@id" : "_:b4",
+    "@type" : "schema:CreativeWork",
+    "datePublished" : "2016",
+    "name" : "The Third Council of Lima and the unified evangelistic norms in the ecclesiastical province of Peru",
+    "publisher" : "Világ-Torténet",
+    "url" : "https://www.academia.edu/28430278/A_harmadik_limai_zsinat_%C3%A9s_az_egys%C3%A9ges_evangeliz%C3%A1ci%C3%B3s_rendszab%C3%A1lyok_a_perui_egyh%C3%A1ztartom%C3%A1nyban"
+  }, {
+    "@id" : "_:b5",
+    "@type" : "schema:CollegeOrUniversity",
+    "country" : "España",
+    "degree" : "Doctorado",
+    "endDate" : "2020",
+    "name" : "Universidad del País Vasco",
+    "sameAs" : "https://www.ehu.eus/",
+    "startDate" : "2016"
+  }, {
+    "@id" : "_:b6",
+    "@type" : "schema:CollegeOrUniversity",
+    "country" : "Chile",
+    "degree" : "Universitario",
+    "endDate" : "2014",
+    "name" : "Universidad Adolfo Ibáñez",
+    "sameAs" : "https://www.uai.cl",
+    "startDate" : "2010"
+  }, {
+    "@id" : "_:b7",
+    "@type" : "schema:CreativeWork",
+    "contributor" : [ "dt:David", "dt:Ho", "dt:Corinne" ],
+    "datePublished" : "2019",
+    "name" : "Mobility as a service in community transport, in Australia: can it provide a sustainable future? Transportation Research Part A",
+    "publisher" : "?????",
+    "url" : "https://www.sciencedirect.com/science/article/pii/S0965856418311340?via%3Dihub"
+  }, {
+    "@id" : "_:b8",
+    "@type" : "schema:CreativeWork",
+    "contributor" : [ "dt:David", "dt:Ho", "dt:Corinne" ],
+    "datePublished" : "2019",
+    "name" : "Do preferences for BRT and LRT change as a voter, citizen, tax payer, or self-interested resident?",
+    "publisher" : "",
+    "url" : ""
+  }, {
+    "@id" : "_:b9",
+    "@type" : "schema:CollegeOrUniversity",
+    "country" : "Chile",
+    "degree" : "Magíster",
+    "endDate" : "2013",
+    "name" : "Pontificia Universidad Católica de Chile",
+    "sameAs" : "https://www.uc.cl",
+    "startDate" : "2011"
+  }, {
+    "@id" : "dt:Camila",
+    "@type" : "schema:Person",
+    "EducationalOccupationalCredential" : "Ingeniera Civil",
+    "alumniOf" : [ "_:b11", "_:b9", "_:b12" ],
+    "author" : [ "_:b10", "_:b7", "_:b8" ],
+    "birthDate" : "1989-03-27",
+    "birthPlace" : "Santiago",
+    "familyName" : "Balbontin Tanhnuz",
+    "gender" : "Femenino",
+    "givenName" : "Camila",
+    "honorificSuffix" : "PhD",
+    "knowsAbout" : "Ingeniería en Transpote",
+    "nationality" : "Chilena"
+  }, {
+    "@id" : "dt:Constanza",
+    "@type" : "schema:Person",
+    "EducationalOccupationalCredential" : "Ingeniera Civil",
+    "alumniOf" : [ "_:b1", "_:b5", "_:b6" ],
+    "author" : [ "_:b0", "_:b2", "_:b3", "_:b4" ],
+    "birthDate" : "1985-09-12",
+    "birthPlace" : "Santiago",
+    "familyName" : "López Lamerain",
+    "gender" : "Femenino",
+    "givenName" : "Constanza",
+    "honorificSuffix" : "PhD",
+    "knowsAbout" : "Historia de América y Chile",
+    "nationality" : "Chilena"
+  }, {
+    "@id" : "dt:Corinne",
+    "@type" : "schema:Person",
+    "familyName" : "Mulley",
+    "givenName" : "Corinne"
+  }, {
+    "@id" : "dt:David",
+    "@type" : "schema:Person",
+    "familyName" : "Hensher",
+    "givenName" : "David"
+  }, {
+    "@id" : "dt:Ho",
+    "@type" : "schema:Person",
+    "familyName" : "Chinh",
+    "givenName" : "Ho"
+  } ],
+  "@id" : "urn:x-arq:DefaultGraphNode",
+  "@context" : {
+    "author" : {
+      "@id" : "http://schema.org/author",
+      "@type" : "@id"
+    },
+    "givenName" : "http://schema.org/givenName",
+    "alumniOf" : {
+      "@id" : "http://schema.org/alumniOf",
+      "@type" : "@id"
+    },
+    "gender" : "http://schema.org/gender",
+    "nationality" : "http://schema.org/nationality",
+    "knowsAbout" : "http://schema.org/knowsAbout",
+    "EducationalOccupationalCredential" : "http://schema.org/EducationalOccupationalCredential",
+    "birthPlace" : "http://schema.org/birthPlace",
+    "familyName" : "http://schema.org/familyName",
+    "honorificSuffix" : "http://schema.org/honorificSuffix",
+    "birthDate" : {
+      "@id" : "http://schema.org/birthDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "url" : {
+      "@id" : "http://schema.org/url",
+      "@type" : "http://schema.org/URL"
+    },
+    "publisher" : "http://schema.org/publisher",
+    "name" : "http://schema.org/name",
+    "datePublished" : {
+      "@id" : "http://schema.org/datePublished",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "contributor" : {
+      "@id" : "http://schema.org/contributor",
+      "@type" : "@id"
+    },
+    "endDate" : {
+      "@id" : "http://schema.org/endDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "startDate" : {
+      "@id" : "http://schema.org/startDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "degree" : "http://schema.org/degree",
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "country" : "http://schema.org/country",
+    "dt" : "http://data.getede.cl/",
+    "schema" : "http://schema.org/",
+    "cv" : "http://rdfs.org/resume-rdf/",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#"
+  }
+}

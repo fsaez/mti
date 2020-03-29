@@ -14,79 +14,50 @@ dt:Camila
         schema:knowsAbout       "Ingeniería en Transpote" ;
         schema:gender           "Femenino" ;
         schema:nationality      "Chilena" ;
-        schema:alumniOf         dt:CamilaUniv ;
-        schema:alumniOf         dt:CamilaMag ;
-        schema:alumniOf         dt:CamilaDoc ;
-        schema:CreativeWork     dt:CamilaPub1 ;
-        schema:CreativeWork     dt:CamilaPub2 ;
-        schema:CreativeWork     dt:CamilaPub3 .
+        schema:alumniOf [ a schema:CollegeOrUniversity ;
+                        schema:name             "Pontificia Universidad Católica de Chile" ;
+                        schema:country          "Chile" ;
+                        schema:sameAs           "https://www.uc.cl"^^xsd:anyURI ;
+                        schema:degree           "Universitario" ;
+                        schema:startDate        "2008"^^xsd:date ;
+                        schema:endDate          "2013"^^xsd:date ],
 
-dt:CamilaUniv
-        a schema:CollegeOrUniversity ;
-        schema:name             "Pontificia Universidad Católica de Chile" ;
-        schema:country          "Chile" ;
-        schema:sameAs           "https://www.uc.cl"^^xsd:anyURI ;
-        schema:degree           "Universitario" ;
-        schema:startDate        "2008"^^xsd:date ;
-        schema:endDate          "2013"^^xsd:date .
+                        [ a schema:CollegeOrUniversity ;
+                        schema:name             "Pontificia Universidad Católica de Chile" ;
+                        schema:country          "Chile" ;
+                        schema:sameAs           "https://www.uc.cl"^^xsd:anyURI ;
+                        schema:degree           "Magíster" ;
+                        schema:startDate        "2011"^^xsd:date ;
+                        schema:endDate          "2013"^^xsd:date ],
 
-dt:CamilaMag
-        a schema:CollegeOrUniversity ;
-        schema:name             "Pontificia Universidad Católica de Chile" ;
-        schema:country          "Chile" ;
-        schema:sameAs           "https://www.uc.cl"^^xsd:anyURI ;
-        schema:degree           "Magíster" ;
-        schema:startDate        "2011"^^xsd:date ;
-        schema:endDate          "2013"^^xsd:date .
+                        [ a schema:CollegeOrUniversity ;
+                        schema:name             "University of Sydney" ;
+                        schema:country          "Australia" ;
+                        schema:sameAs           "https://www.sydney.edu.au"^^xsd:anyURI ;
+                        schema:degree           "Doctorado" ;
+                        schema:startDate        "2016"^^xsd:date ;
+                        schema:endDate          "2018"^^xsd:date ] ;
 
-dt:CamilaDoc
-        a schema:CollegeOrUniversity ;
-        schema:name             "University of Sydney" ;
-        schema:country          "Australia" ;
-        schema:sameAs           "https://www.sydney.edu.au"^^xsd:anyURI ;
-        schema:degree           "Doctorado" ;
-        schema:startDate        "2016"^^xsd:date ;
-        schema:endDate          "2018"^^xsd:date .        
+        schema:author   [ a schema:CreativeWork ;
+                        schema:datePublished    "2019"^^xsd:date ;
+                        schema:name             "Mobility as a service in community transport, in Australia: can it provide a sustainable future? Transportation Research Part A" ;
+                        schema:contributor      dt:Corinne, dt:Ho, dt:David ;
+                        schema:publisher        "?????" ;
+                        schema:url              "https://www.sciencedirect.com/science/article/pii/S0965856418311340?via%3Dihub"^^schema:URL ],
 
-dt:CamilaPub1
-        a schema:CreativeWork ;
-        schema:datePublished    "2019"^^xsd:date ;
-        schema:name             "Mobility as a service in community transport, in Australia: can it provide a sustainable future? Transportation Research Part A" ;
-        schema:contributor      dt:Corinne, dt:Ho, dt:David ;
-        schema:publisher        "?????" ;
-        schema:url              "https://www.sciencedirect.com/science/article/pii/S0965856418311340?via%3Dihub"^^schema:URL .
+                        [ a schema:CreativeWork ;
+                        schema:datePublished    "2019"^^xsd:date ;
+                        schema:name             "Cross-cultural contrasts of preferences for bus rapid transit and light rail transit" ;
+                        schema:contributor      dt:Corinne, dt:Ho, dt:David ;
+                        schema:publisher        "Journal of Transport Economics and Policy" ;
+                        schema:url              ""^^schema:URL ],
 
-dt:CamilaPub2
-        a schema:CreativeWork ;
-        schema:datePublished    "2019"^^xsd:date ;
-        schema:name             "Cross-cultural contrasts of preferences for bus rapid transit and light rail transit" ;
-        schema:contributor      dt:Corinne, dt:Ho, dt:David ;
-        schema:publisher        "Journal of Transport Economics and Policy" ;
-        schema:url              ""^^schema:URL .
-
-dt:CamilaPub3
-        a schema:CreativeWork ;
-        schema:datePublished    "2019"^^xsd:date ;
-        schema:name             "Do preferences for BRT and LRT change as a voter, citizen, tax payer, or self-interested resident?" ;
-        schema:contributor      dt:Corinne, dt:Ho, dt:David ;
-        schema:publisher        "" ;
-        schema:url              ""^^schema:URL .
-
-dt:Corinne
-        a schema:Person ;
-        schema:givenName        "Corinne" ;
-        schema:familyName       "Mulley" .
-
-dt:Ho
-        a schema:Person ;
-        schema:givenName        "Ho" ;
-        schema:familyName       "Chinh" .
-
-dt:David
-        a schema:Person ;
-        schema:givenName        "David" ;
-        schema:familyName       "Hensher" .
-
+                        [ a schema:CreativeWork ;
+                        schema:datePublished    "2019"^^xsd:date ;
+                        schema:name             "Do preferences for BRT and LRT change as a voter, citizen, tax payer, or self-interested resident?" ;
+                        schema:contributor      dt:Corinne, dt:Ho, dt:David ;
+                        schema:publisher        "" ;
+                        schema:url              ""^^schema:URL ] .
 
 
 dt:Corinne
@@ -115,67 +86,55 @@ dt:Constanza
         schema:knowsAbout       "Historia de América y Chile" ;
         schema:gender           "Femenino" ;
         schema:nationality      "Chilena" ;
-        schema:alumniOf         dt:ConstanzaUniv ;
-        schema:alumniOf         dt:ConstanzaMag ;
-        schema:alumniOf         dt:ConstanzaDoc ;
-        schema:CreativeWork     dt:ConstanzaPub1 ;
-        schema:CreativeWork     dt:ConstanzaPub2 ;
-        schema:CreativeWork     dt:ConstanzaPub3 ;
-        schema:CreativeWork     dt:ConstanzaPub4 .
 
-dt:ConstanzaUniv
-        a schema:CollegeOrUniversity ;
-        schema:name             "Universidad Adolfo Ibáñez" ;
-        schema:country          "Chile" ;
-        schema:sameAs           "https://www.uai.cl"^^xsd:anyURI ;
-        schema:degree           "Universitario" ;
-        schema:startDate        "2010"^^xsd:date ;
-        schema:endDate          "2014"^^xsd:date .
+        schema:alumniOf         [ a schema:CollegeOrUniversity ;
+                                schema:name             "Universidad Adolfo Ibáñez" ;
+                                schema:country          "Chile" ;
+                                schema:sameAs           "https://www.uai.cl"^^xsd:anyURI ;
+                                schema:degree           "Universitario" ;
+                                schema:startDate        "2010"^^xsd:date ;
+                                schema:endDate          "2014"^^xsd:date ],
 
-dt:ConstanzaMag
-        a schema:CollegeOrUniversity ;
-        schema:name             "Universidad Adolfo Ibáñez" ;
-        schema:country          "Chile" ;
-        schema:sameAs           "https://www.uai.cl"^^xsd:anyURI ;
-        schema:degree           "Magíster" ;
-        schema:startDate        "2012"^^xsd:date ;
-        schema:endDate          "2014"^^xsd:date .
+                                [ a schema:CollegeOrUniversity ;
+                                schema:name             "Universidad Adolfo Ibáñez" ;
+                                schema:country          "Chile" ;
+                                schema:sameAs           "https://www.uai.cl"^^xsd:anyURI ;
+                                schema:degree           "Magíster" ;
+                                schema:startDate        "2012"^^xsd:date ;
+                                schema:endDate          "2014"^^xsd:date ],
 
-dt:ConstanzaDoc
-        a schema:CollegeOrUniversity ;
-        schema:name             "Universidad del País Vasco" ;
-        schema:country          "España" ;
-        schema:sameAs           "https://www.ehu.eus/"^^xsd:anyURI ;
-        schema:degree           "Doctorado" ;
-        schema:startDate        "2016"^^xsd:date ;
-        schema:endDate          "2020"^^xsd:date .    
 
-dt:ConstanzaPub1
-        a schema:CreativeWork ;
-        schema:datePublished    "2011"^^xsd:date ;
-        schema:name             "El III Concilio de Lima y la conformación de una normativa evangelizadora para la Provincia Eclesiástica del Perú" ;
-        schema:publisher        "Intus-Legere Historia" ;
-        schema:url              "https://www.academia.edu/2034108/El_III_Concilio_de_Lima_y_la_conformaci%C3%B3n_de_una_normativa_evangelizadora_para_la_Provincia_Eclesi%C3%A1stica_del_Per%C3%BA"^^schema:URL .
+                                [ a schema:CollegeOrUniversity ;
+                                a schema:CollegeOrUniversity ;
+                                schema:name             "Universidad del País Vasco" ;
+                                schema:country          "España" ;
+                                schema:sameAs           "https://www.ehu.eus/"^^xsd:anyURI ;
+                                schema:degree           "Doctorado" ;
+                                schema:startDate        "2016"^^xsd:date ;
+                                schema:endDate          "2020"^^xsd:date ];
 
-dt:ConstanzaPub2
-        a schema:CreativeWork ;
-        schema:datePublished    "2011"^^xsd:date ;
-        schema:name             "El Concilio de Trento y Sudamérica: Aplicaciones y adaptaciones en el III Concilio Limense" ;
-        schema:publisher        "Anuario de Historia de la Iglesia en Chile" ;
-        schema:url              "https://www.academia.edu/7509485/El_Concilio_de_Trento_y_Sudam%C3%A9rica_Aplicaciones_y_adaptaciones_en_el_III_Concilio_Limense"^^schema:URL .
+        schema:author           [ a schema:CreativeWork ;
+                                schema:datePublished    "2011"^^xsd:date ;
+                                schema:name             "El III Concilio de Lima y la conformación de una normativa evangelizadora para la Provincia Eclesiástica del Perú" ;
+                                schema:publisher        "Intus-Legere Historia" ;
+                                schema:url              "https://www.academia.edu/2034108/El_III_Concilio_de_Lima_y_la_conformaci%C3%B3n_de_una_normativa_evangelizadora_para_la_Provincia_Eclesi%C3%A1stica_del_Per%C3%BA"^^schema:URL ],
 
-dt:ConstanzaPub3
-        a schema:CreativeWork ;
-        schema:datePublished    "2016"^^xsd:date ;
-        schema:name             "The Third Council of Lima and the unified evangelistic norms in the ecclesiastical province of Peru" ;
-        schema:publisher        "Világ-Torténet" ;
-        schema:url              "https://www.academia.edu/28430278/A_harmadik_limai_zsinat_%C3%A9s_az_egys%C3%A9ges_evangeliz%C3%A1ci%C3%B3s_rendszab%C3%A1lyok_a_perui_egyh%C3%A1ztartom%C3%A1nyban"^^schema:URL .
+                                [ a schema:CreativeWork ;
+                                schema:datePublished    "2011"^^xsd:date ;
+                                schema:name             "El Concilio de Trento y Sudamérica: Aplicaciones y adaptaciones en el III Concilio Limense" ;
+                                schema:publisher        "Anuario de Historia de la Iglesia en Chile" ;
+                                schema:url              "https://www.academia.edu/7509485/El_Concilio_de_Trento_y_Sudam%C3%A9rica_Aplicaciones_y_adaptaciones_en_el_III_Concilio_Limense"^^schema:URL ],
 
-dt:ConstanzaPub4
-        a schema:CreativeWork ;
-        schema:datePublished    "2018"^^xsd:date ;
-        schema:name             "Translating canon law into local reality: from Trent to Santiago de Chile" ;
-        schema:publisher        "Press Universitaires de Rennes" ;
-        schema:url              "https://www.academia.edu/35870910/L%C3%B3pez_Lamerain_Translating_canon_law.pdf"^^schema:URL .
+                                [ a schema:CreativeWork ;
+                                schema:datePublished    "2016"^^xsd:date ;
+                                schema:name             "The Third Council of Lima and the unified evangelistic norms in the ecclesiastical province of Peru" ;
+                                schema:publisher        "Világ-Torténet" ;
+                                schema:url              "https://www.academia.edu/28430278/A_harmadik_limai_zsinat_%C3%A9s_az_egys%C3%A9ges_evangeliz%C3%A1ci%C3%B3s_rendszab%C3%A1lyok_a_perui_egyh%C3%A1ztartom%C3%A1nyban"^^schema:URL ],
+
+                                [ a schema:CreativeWork ;
+                                schema:datePublished    "2018"^^xsd:date ;
+                                schema:name             "Translating canon law into local reality: from Trent to Santiago de Chile" ;
+                                schema:publisher        "Press Universitaires de Rennes" ;
+                                schema:url              "https://www.academia.edu/35870910/L%C3%B3pez_Lamerain_Translating_canon_law.pdf"^^schema:URL ].
 
 
